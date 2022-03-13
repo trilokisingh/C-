@@ -1,3 +1,12 @@
+/*
+
+1
+23
+345
+4567
+56789
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

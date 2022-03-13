@@ -1,3 +1,17 @@
+/*
+
+1
+21
+321
+4321
+54321
+654321
+7654321
+87654321
+
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

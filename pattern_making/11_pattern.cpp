@@ -19,7 +19,7 @@ int main()
         int j = 1;
         while (j <= i) // IMPORETANT logic
         {
-            //cout << "";
+            // cout << "";
             cout << " X";
             j++;
         }
