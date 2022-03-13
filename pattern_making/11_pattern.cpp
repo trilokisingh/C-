@@ -1,3 +1,10 @@
+/* X
+  X  X
+  X  X  X
+  X  X  X  X
+  X  X  X  X  X
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -5,20 +12,18 @@ int main()
 {
     int i = 1;
     int number;
-    cout << "Enter favorate number ";
+    cout << "Enter the number ";
     cin >> number;
-
     while (i <= number)
     {
         int j = 1;
-
-        while (j <= i)
+        while (j <= i) // IMPORETANT logic
         {
-            cout << i - j + 1;
+            //cout << "";
+            cout << " X";
             j++;
         }
-
-        cout << endl;
         i++;
+        cout << endl;
     }
 }

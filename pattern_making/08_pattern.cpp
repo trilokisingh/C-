@@ -14,7 +14,7 @@ int main()
 
         while (j <= i)
         {
-            cout << i - j + 1;
+            cout << i + j - 1;  ///LOGIC IS MOST IMPORTANT
             j++;
         }
 

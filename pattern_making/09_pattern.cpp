@@ -5,20 +5,21 @@ int main()
 {
     int i = 1;
     int number;
-    cout << "Enter favorate number ";
+
+    cout << "Enter the number ";
     cin >> number;
 
     while (i <= number)
     {
         int j = 1;
-
-        while (j <= i)
+        while (j <= number)
         {
-            cout << i - j + 1;
+            char ch = 'A' + i - 1; // these logic are important
+            cout << " "<<ch<<" ";
+
             j++;
         }
-
-        cout << endl;
         i++;
+        cout << endl;
     }
 }
